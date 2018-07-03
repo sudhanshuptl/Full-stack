@@ -39,3 +39,19 @@ Then to remove the conflict you have to choose which one of two line you need to
  * ``` git reset --hard origion/master```
  
  
+ ## Git Branches
+ * To See all available branches ```git branch```
+ * To create new Branch ```git branch new_branch_name```
+ * To edit in given branch, we needto  change pointer to new branch <br \>
+ ``` git checkout branch_name```
+ 
+ ## git checkout
+ * **switch between branch** in local repository For instance <br />
+ ```git checkout exists_branch_to_switch```
+ * You can also create new branch and switch out in throught this case with -b <br />
+    ```git checkout -b new_branch_to_switch```
+ * restore file from x rev **restoring state of file to last commit**<br />
+ ```git checkout rev file_to_restore```
+ 
+ 
+
